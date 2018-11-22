@@ -12,7 +12,7 @@ var dice = {
 
 function printNumber(number) {
   var placeholder = document.getElementById('placeholder');
-  placeholder.innerHTML = number;
+  placeholder.innerHTML = '<img src=' + number + '.png>';
 }
 
 var button = document.getElementById('button');
